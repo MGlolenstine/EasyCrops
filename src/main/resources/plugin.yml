@@ -1,0 +1,6 @@
+name: EasyCrops
+version: ${project.version}
+main: xyz.mglolenstine.easycrops.Easycrops
+prefix: EC
+authors: [MGlolenstine]
+description: Enables you to right-click fully grown crops to harvest them.
