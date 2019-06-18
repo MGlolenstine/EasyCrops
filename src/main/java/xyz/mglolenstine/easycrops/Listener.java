@@ -60,10 +60,10 @@ public class Listener implements org.bukkit.event.Listener {
                 }
                 e.getPlayer().getInventory().addItem(new ItemStack(Material.NETHER_STALK, mult));
             }
-        } else {
-            if (e.getClickedBlock() != null && e.getAction() == Action.RIGHT_CLICK_BLOCK) {
-                e.getPlayer().sendMessage(e.getClickedBlock().getType().name());
-            }
+//        } else {
+//            if (e.getClickedBlock() != null && e.getAction() == Action.RIGHT_CLICK_BLOCK) {
+//                e.getPlayer().sendMessage(e.getClickedBlock().getType().name());
+//            }
         }
     }
 
